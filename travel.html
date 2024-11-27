@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tourist Spots in Tamil Nadu</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="travel.css">
+</head>
+<body>
+    <div class="container">
+    <div id="controls">
+        <h1>Tourists spots-TN</h1>
+        <label for="start-location"><b>Start: </b></label>
+        <input type="text" id="start-location" placeholder="Start location"/>
+        <label for="end-location"><b>End: </b></label>
+        <input type="text" id="end-location" placeholder="Destination"/>
+        <br>
+        <button id="find-route">Find Route</button>
+        <div id="route-info"></div>
+    </div>
+    <div id="map"></div>
+</div>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="travel.js"></script>
+</body>
+</html>
